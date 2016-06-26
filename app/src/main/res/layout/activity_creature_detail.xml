@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_id_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_id"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_name_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_name"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_army_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_army"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_health_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_health"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_speed_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_speed"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_attack_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_attack"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_defense_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_defense"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_min_damage_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_min_damage"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_max_damage_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_max_damage"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_special_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_special"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_gold_cost_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_gold_cost"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_resource_cost_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_resource_cost"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_resource_type_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_resource_type"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_num_shots_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_num_shots"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_can_fly_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_can_fly"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_tier_level_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_tier_level"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_is_upgraded_form_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_is_upgraded_form"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                style="@style/CreatureDetail.Label"
+                android:text="@string/creature_upgrade_id_lbl"/>
+
+            <TextView
+                android:id="@+id/tv_creature_detail_upgrade_id"
+                style="@style/CreatureDetail.Data"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontal">
+
+            <TextView
+                android:id="@+id/tv_creature_detail_error"
+                style="@style/CreatureDetail"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HomamiiiAndroid</string>
+    <string name="creatures">Creatures</string>
+    <string name="col_creature_name">Creature Name</string>
+
+    <!-- CreatureDetailActivity -->
+    <string name="creature_id_lbl">ID:</string>
+    <string name="creature_name_lbl">Name:</string>
+    <string name="creature_army_lbl">Army:</string>
+    <string name="creature_speed_lbl">Speed:</string>
+    <string name="creature_health_lbl">Health:</string>
+    <string name="creature_attack_lbl">Attack:</string>
+    <string name="creature_defense_lbl">Defense:</string>
+    <string name="creature_min_damage_lbl">Min. Damage:</string>
+    <string name="creature_max_damage_lbl">Max. Damage:</string>
+    <string name="creature_special_lbl">Special:</string>
+    <string name="creature_gold_cost_lbl">Gold Cost:</string>
+    <string name="creature_resource_cost_lbl">Resource Cost:</string>
+    <string name="creature_resource_type_lbl">Resource Type:</string>
+    <string name="creature_num_shots_lbl">Number of Ranged Shots:</string>
+    <string name="creature_can_fly_lbl">Can Fly:</string>
+    <string name="creature_tier_level_lbl">Tier Level:</string>
+    <string name="creature_is_upgraded_form_lbl">Is Upgraded Form:</string>
+    <string name="creature_upgrade_id_lbl">Upgrade ID:</string>
+    <string name="creature_detail_not_found">Error: Creature detail not found!</string>
+
+
+</resources>
