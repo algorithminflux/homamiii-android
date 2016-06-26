@@ -7,7 +7,12 @@ A useful app that displays the creatures' stats from the original 1999 3DO game 
 ## Features
 
 - Main menu consists of every creature within the game, sorted by army (e.g. Rampart, Fortress, etc)
+
+![Main Page](./app/src/main/assets/screenshots/Screenshot_MainActivity_20160626-134315.jpg?raw=true "Main Page")
+
 - Tapping on a creature will open the creature's details page
+
+![Creature Details](./app/src/main/assets/screenshots/Screenshot_CreatureDetailActivity_20160626-134321.jpg?raw=true "Creature Details")
  
 ## Installation
 
