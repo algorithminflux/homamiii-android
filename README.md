@@ -18,8 +18,16 @@ A useful app that displays the creatures' stats from the original 1999 3DO game 
 
 Navigate to this project's `app` directory, and download the `.apk` file located in there (i.e. `homamiii-android_yyyy-mm-ddThhmm.apk`. Next, you'll want to move this APK file to your Android device. There are many apps out there that allow you to transfer files over the LAN, but the simplest method would perhaps be to use a micro USB cable to plug your device to your computer.
 
-## Notes
-
-Please leave comments and/or feedback with any improvements for this app.
-
 Enjoy!
+
+## TODO
+
+- Add avatar pictures on CreatureDetailActivity
+- Change CreatureDetailActivity to GridView
+- Search feature in MainActivity
+  - Search by: Name, Army, Tier Level
+- Creature Comparer feature
+- Sorting feature
+  - Sort by: Attack, Defense, Min./Max. Damage, Speed, etc
+- Create proper app icon
+- Set Activity background to black (i.e. Dark Theme)
