@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HomamiiiAndroid.iml" filepath="$PROJECT_DIR$/HomamiiiAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homamiii-android.iml" filepath="$PROJECT_DIR$/homamiii-android.iml" />
     </modules>
   </component>
 </project>
